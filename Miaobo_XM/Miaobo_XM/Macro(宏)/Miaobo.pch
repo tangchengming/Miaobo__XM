@@ -1,0 +1,50 @@
+//
+//  Miaobo.pch
+//  Miaobo_XM
+//
+//  Created by 成都众人合 on 16/9/28.
+//  Copyright © 2016年 小明. All rights reserved.
+//
+
+#ifndef Miaobo_pch
+#define Miaobo_pch
+
+#import <UIKit/UIKit.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import "AFNetworking.h"
+#import "UMSocial.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+MJ.h"
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import "SDWebImageDownloader.h"
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+#import "MJExtension.h"
+#import <MJRefresh.h>
+//腾讯开放平台
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+//微信
+#import "WXApi.h"
+
+//新浪
+#import "WeiboSDK.h"
+
+
+//自定义
+#import "RequestDefine.h"
+#import "ColorDefine.h"
+#import "FontDefine.h"
+#import "FrameDefine.h"
+#import "PathDefine.h"
+#import "SystemDefine.h"
+#import "UtilsDefine.h"
+#import "ResponseObject.h"
+#import "RequestManager.h"
+#import "UIButton+Extension.h"
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIBarButtonItem+XL.h"
+#import "XMinRefreshGifHeader.h"
+#endif /* Miaobo_pch */
