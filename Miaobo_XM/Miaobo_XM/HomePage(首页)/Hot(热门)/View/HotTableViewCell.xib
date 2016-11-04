@@ -77,6 +77,7 @@
                             <constraint firstAttribute="bottom" secondItem="HUl-Vj-IoB" secondAttribute="bottom" constant="10" id="2Xq-CZ-MzM"/>
                             <constraint firstAttribute="trailing" secondItem="CJg-qs-Hny" secondAttribute="trailing" constant="8" id="3QA-K5-kW7"/>
                             <constraint firstItem="7X8-52-Mpn" firstAttribute="top" secondItem="okd-dj-0B9" secondAttribute="top" constant="5" id="Asn-Oa-SPs"/>
+                            <constraint firstAttribute="height" constant="55" id="EgK-fr-2ig"/>
                             <constraint firstItem="WDb-HH-azI" firstAttribute="leading" secondItem="HUl-Vj-IoB" secondAttribute="trailing" constant="10" id="FI1-fW-Kpl"/>
                             <constraint firstItem="CJg-qs-Hny" firstAttribute="top" secondItem="okd-dj-0B9" secondAttribute="top" constant="8" id="FvM-Jd-U27"/>
                             <constraint firstItem="HUl-Vj-IoB" firstAttribute="leading" secondItem="okd-dj-0B9" secondAttribute="leading" constant="10" id="H1g-7T-Kjn"/>
@@ -90,11 +91,7 @@
                             <constraint firstItem="chS-P4-BdD" firstAttribute="leading" secondItem="AlC-5e-7yN" secondAttribute="trailing" constant="10" id="tZX-6o-Odb"/>
                         </constraints>
                     </view>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f5g-eY-hs9">
-                        <constraints>
-                            <constraint firstAttribute="height" constant="374" id="iHL-eP-FT9"/>
-                        </constraints>
-                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f5g-eY-hs9"/>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="个性签名" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHu-SC-aZz">
                         <constraints>
                             <constraint firstAttribute="height" constant="70" id="PgO-Ce-obf"/>
