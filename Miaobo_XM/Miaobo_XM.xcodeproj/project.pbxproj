@@ -36,6 +36,17 @@
 		485C9E031DC34EC200B2D6C9 /* XMHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485C9E021DC34EC200B2D6C9 /* XMHotViewController.m */; };
 		48688AD11DC713580014A295 /* ALinHomeADCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48688AD01DC713580014A295 /* ALinHomeADCell.m */; };
 		48688AD51DC7208E0014A295 /* XMinRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 48688AD41DC7208E0014A295 /* XMinRefreshGifHeader.m */; };
+		48CE5DAE1DCC714600FF3D15 /* XMWatchLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE5DAD1DCC714600FF3D15 /* XMWatchLiveViewController.m */; };
+		48CE5DB11DCC794900FF3D15 /* XMWatchLiveViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE5DB01DCC794900FF3D15 /* XMWatchLiveViewCell.m */; };
+		48CE5DB41DCC798C00FF3D15 /* XMBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE5DB31DCC798C00FF3D15 /* XMBottomToolView.m */; };
+		48CE5DBA1DCC7A3600FF3D15 /* XMAnchorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE5DB91DCC7A3600FF3D15 /* XMAnchorInfoView.m */; };
+		48CE5DBC1DCC7A6800FF3D15 /* XMAnchorInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48CE5DBB1DCC7A6800FF3D15 /* XMAnchorInfoView.xib */; };
+		48CE5DBF1DCC7AFB00FF3D15 /* CatEarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE5DBE1DCC7AFB00FF3D15 /* CatEarView.m */; };
+		48CE5DC11DCC7B1000FF3D15 /* CatEarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48CE5DC01DCC7B1000FF3D15 /* CatEarView.xib */; };
+		48CE5DC41DCC7B8F00FF3D15 /* XMUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE5DC31DCC7B8F00FF3D15 /* XMUserInfoView.m */; };
+		48CE5DC61DCC7B9B00FF3D15 /* UserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48CE5DC51DCC7B9B00FF3D15 /* UserInfoView.xib */; };
+		48CE5DC91DCC7BD000FF3D15 /* XMLiveEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE5DC81DCC7BD000FF3D15 /* XMLiveEndView.m */; };
+		48CE5DCB1DCC7BE900FF3D15 /* LiveEndView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48CE5DCA1DCC7BE900FF3D15 /* LiveEndView.xib */; };
 		48DE92221D9A6F9300E191E8 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DE92211D9A6F9300E191E8 /* RequestManager.m */; };
 		48E285191D9BB2A5000965FB /* ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E285181D9BB2A5000965FB /* ResponseObject.m */; };
 		48E6776D1D98C0B5004245FD /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E6776C1D98C0B5004245FD /* IJKMediaFramework.framework */; };
@@ -172,6 +183,24 @@
 		48688AD31DC7208E0014A295 /* XMinRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMinRefreshGifHeader.h; sourceTree = "<group>"; };
 		48688AD41DC7208E0014A295 /* XMinRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMinRefreshGifHeader.m; sourceTree = "<group>"; };
 		489F6FF91D9BC4D600CED312 /* Miaobo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Miaobo.pch; sourceTree = "<group>"; };
+		48CE5DAC1DCC714600FF3D15 /* XMWatchLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMWatchLiveViewController.h; sourceTree = "<group>"; };
+		48CE5DAD1DCC714600FF3D15 /* XMWatchLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMWatchLiveViewController.m; sourceTree = "<group>"; };
+		48CE5DAF1DCC794900FF3D15 /* XMWatchLiveViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMWatchLiveViewCell.h; sourceTree = "<group>"; };
+		48CE5DB01DCC794900FF3D15 /* XMWatchLiveViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMWatchLiveViewCell.m; sourceTree = "<group>"; };
+		48CE5DB21DCC798C00FF3D15 /* XMBottomToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMBottomToolView.h; sourceTree = "<group>"; };
+		48CE5DB31DCC798C00FF3D15 /* XMBottomToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBottomToolView.m; sourceTree = "<group>"; };
+		48CE5DB81DCC7A3600FF3D15 /* XMAnchorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMAnchorInfoView.h; sourceTree = "<group>"; };
+		48CE5DB91DCC7A3600FF3D15 /* XMAnchorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMAnchorInfoView.m; sourceTree = "<group>"; };
+		48CE5DBB1DCC7A6800FF3D15 /* XMAnchorInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMAnchorInfoView.xib; sourceTree = "<group>"; };
+		48CE5DBD1DCC7AFB00FF3D15 /* CatEarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatEarView.h; sourceTree = "<group>"; };
+		48CE5DBE1DCC7AFB00FF3D15 /* CatEarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatEarView.m; sourceTree = "<group>"; };
+		48CE5DC01DCC7B1000FF3D15 /* CatEarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatEarView.xib; sourceTree = "<group>"; };
+		48CE5DC21DCC7B8F00FF3D15 /* XMUserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMUserInfoView.h; sourceTree = "<group>"; };
+		48CE5DC31DCC7B8F00FF3D15 /* XMUserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMUserInfoView.m; sourceTree = "<group>"; };
+		48CE5DC51DCC7B9B00FF3D15 /* UserInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoView.xib; sourceTree = "<group>"; };
+		48CE5DC71DCC7BD000FF3D15 /* XMLiveEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLiveEndView.h; sourceTree = "<group>"; };
+		48CE5DC81DCC7BD000FF3D15 /* XMLiveEndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLiveEndView.m; sourceTree = "<group>"; };
+		48CE5DCA1DCC7BE900FF3D15 /* LiveEndView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveEndView.xib; sourceTree = "<group>"; };
 		48DE92201D9A6F9300E191E8 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
 		48DE92211D9A6F9300E191E8 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
 		48E285171D9BB2A5000965FB /* ResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseObject.h; sourceTree = "<group>"; };
@@ -376,6 +405,15 @@
 				48688AD41DC7208E0014A295 /* XMinRefreshGifHeader.m */,
 			);
 			path = "Refresh(刷新)";
+			sourceTree = "<group>";
+		};
+		48CE5DAB1DCC70A700FF3D15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48CE5DAC1DCC714600FF3D15 /* XMWatchLiveViewController.h */,
+				48CE5DAD1DCC714600FF3D15 /* XMWatchLiveViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		48E2851A1D9BB84A000965FB /* Macro(宏) */ = {
@@ -603,6 +641,7 @@
 		48E6B2BA1DAF742C00087454 /* live */ = {
 			isa = PBXGroup;
 			children = (
+				48CE5DAB1DCC70A700FF3D15 /* Controller */,
 				48E6B2BB1DAF742C00087454 /* SafeObject */,
 				48E6B2BC1DAF742C00087454 /* View(直播视图) */,
 			);
@@ -619,6 +658,22 @@
 		48E6B2BC1DAF742C00087454 /* View(直播视图) */ = {
 			isa = PBXGroup;
 			children = (
+				48CE5DAF1DCC794900FF3D15 /* XMWatchLiveViewCell.h */,
+				48CE5DB01DCC794900FF3D15 /* XMWatchLiveViewCell.m */,
+				48CE5DB21DCC798C00FF3D15 /* XMBottomToolView.h */,
+				48CE5DB31DCC798C00FF3D15 /* XMBottomToolView.m */,
+				48CE5DB81DCC7A3600FF3D15 /* XMAnchorInfoView.h */,
+				48CE5DB91DCC7A3600FF3D15 /* XMAnchorInfoView.m */,
+				48CE5DBB1DCC7A6800FF3D15 /* XMAnchorInfoView.xib */,
+				48CE5DBD1DCC7AFB00FF3D15 /* CatEarView.h */,
+				48CE5DBE1DCC7AFB00FF3D15 /* CatEarView.m */,
+				48CE5DC01DCC7B1000FF3D15 /* CatEarView.xib */,
+				48CE5DC21DCC7B8F00FF3D15 /* XMUserInfoView.h */,
+				48CE5DC31DCC7B8F00FF3D15 /* XMUserInfoView.m */,
+				48CE5DC51DCC7B9B00FF3D15 /* UserInfoView.xib */,
+				48CE5DC71DCC7BD000FF3D15 /* XMLiveEndView.h */,
+				48CE5DC81DCC7BD000FF3D15 /* XMLiveEndView.m */,
+				48CE5DCA1DCC7BE900FF3D15 /* LiveEndView.xib */,
 			);
 			path = "View(直播视图)";
 			sourceTree = "<group>";
@@ -1165,16 +1220,20 @@
 				48E81BAF1D95228D00627237 /* Assets.xcassets in Resources */,
 				48E9BB721D9D0A7400AB95D1 /* UMSCommentDetailController.xib in Resources */,
 				481D73931DC1E6D3003EAD39 /* AttentionView.xib in Resources */,
+				48CE5DBC1DCC7A6800FF3D15 /* XMAnchorInfoView.xib in Resources */,
 				48EC23AE1DAE29D200ADDF07 /* loginmovie.mp4 in Resources */,
 				48E9BB781D9D0A7400AB95D1 /* UMSnsAccountViewController.xib in Resources */,
 				48EC239B1DADD35700ADDF07 /* README.txt in Resources */,
+				48CE5DC61DCC7B9B00FF3D15 /* UserInfoView.xib in Resources */,
 				48E9BB7A1D9D0A7400AB95D1 /* UMSocialSDKResourcesNew.bundle in Resources */,
 				48EC23AD1DAE29D200ADDF07 /* login_video.mp4 in Resources */,
 				48E9BB771D9D0A7400AB95D1 /* UMSLoginViewController.xib in Resources */,
 				48E9BB731D9D0A7400AB95D1 /* UMSCommentInputController.xib in Resources */,
 				48E9BB791D9D0A7400AB95D1 /* UMSShareListController.xib in Resources */,
 				483C23FF1DC9DFE500DA4096 /* HotTableViewCell.xib in Resources */,
+				48CE5DCB1DCC7BE900FF3D15 /* LiveEndView.xib in Resources */,
 				48E9BB761D9D0A7400AB95D1 /* UMShareEditViewControlleriPad.xib in Resources */,
+				48CE5DC11DCC7B1000FF3D15 /* CatEarView.xib in Resources */,
 				48E9BB701D9D0A7400AB95D1 /* UMSocialLocalizable.strings in Resources */,
 				481D738E1DC1E18F003EAD39 /* XMCollectionViewCell.xib in Resources */,
 				48EC23981DADD35700ADDF07 /* WeiboSDK.bundle in Resources */,
@@ -1251,6 +1310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4815735E1DC09DE4003515D0 /* XMHotHeaderView.m in Sources */,
+				48CE5DC91DCC7BD000FF3D15 /* XMLiveEndView.m in Sources */,
 				48E6B2E51DAF865C00087454 /* UIView+Extension.m in Sources */,
 				48DE92221D9A6F9300E191E8 /* RequestManager.m in Sources */,
 				481573541DC093B0003515D0 /* XRCarouselView.m in Sources */,
@@ -1259,12 +1319,16 @@
 				48688AD51DC7208E0014A295 /* XMinRefreshGifHeader.m in Sources */,
 				48E6B2CE1DAF786900087454 /* XMLoginView.m in Sources */,
 				4821B4361DB874D10048476B /* PersonalCenterViewController.m in Sources */,
+				48CE5DAE1DCC714600FF3D15 /* XMWatchLiveViewController.m in Sources */,
+				48CE5DB11DCC794900FF3D15 /* XMWatchLiveViewCell.m in Sources */,
+				48CE5DBA1DCC7A3600FF3D15 /* XMAnchorInfoView.m in Sources */,
 				48E6B2E01DAF865C00087454 /* UIBarButtonItem+XL.m in Sources */,
 				4821B4521DB8C4CA0048476B /* XMAttentionViewController.m in Sources */,
 				48E285191D9BB2A5000965FB /* ResponseObject.m in Sources */,
 				485A580C1DB9F3BF00FA7AFE /* RankingListViewController.m in Sources */,
 				481573571DC0961E003515D0 /* XMHotHeaderResult.m in Sources */,
 				4821B43C1DB875840048476B /* XMNavigationController.m in Sources */,
+				48CE5DBF1DCC7AFB00FF3D15 /* CatEarView.m in Sources */,
 				4815734E1DC09004003515D0 /* XMNewModel.m in Sources */,
 				48E6778B1D99187C004245FD /* ALinNetworkTool.m in Sources */,
 				4821B4301DB873490048476B /* XMNewViewController.m in Sources */,
@@ -1272,6 +1336,7 @@
 				481573511DC0913F003515D0 /* XMNewData.m in Sources */,
 				4821B4391DB875570048476B /* XMTabBarViewController.m in Sources */,
 				481573451DC08AD9003515D0 /* XMHotHeaderModel.m in Sources */,
+				48CE5DB41DCC798C00FF3D15 /* XMBottomToolView.m in Sources */,
 				4815734B1DC08D34003515D0 /* XMHotModel.m in Sources */,
 				48E81BA71D95228D00627237 /* AppDelegate.m in Sources */,
 				48E6B2D11DAF78A700087454 /* XMLoginViewController.m in Sources */,
@@ -1289,6 +1354,7 @@
 				4821B4271DB872440048476B /* XMHomeViewController.m in Sources */,
 				4821B44F1DB8B9400048476B /* XMSearchViewController.m in Sources */,
 				4815735A1DC097BF003515D0 /* XMDealData.m in Sources */,
+				48CE5DC41DCC7B8F00FF3D15 /* XMUserInfoView.m in Sources */,
 				481D73911DC1E6AB003EAD39 /* AttentionView.m in Sources */,
 				48E81BA41D95228D00627237 /* main.m in Sources */,
 			);

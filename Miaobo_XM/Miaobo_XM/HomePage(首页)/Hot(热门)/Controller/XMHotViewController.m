@@ -13,6 +13,7 @@
 #import "XMHotModel.h"
 #import "XMHotHeaderModel.h"
 #import "RankingListViewController.h"//web
+#import "XMWatchLiveViewController.h"
 @interface XMHotViewController ()
 //当前页
 @property (nonatomic, assign)NSUInteger currentPage;
@@ -203,7 +204,19 @@ static NSString *ADReuseIdentifier = @"ALinHomeADCell";
     return cell;
 }
 
+//点击行
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
+    XMWatchLiveViewController *watch = [[XMWatchLiveViewController alloc]init];
+    watch.lives = self.lives;
+    
+    //点击进入直播画面的同时显示直播背景图
+    XMHotTableViewCell *cell = [XMHotTableViewCell tableViewCell];
+    
+    watch.image = cell.bigPicView.image;
+    
+    [self presentViewController:watch animated:YES completion:nil];
+}
 
 
 @end
