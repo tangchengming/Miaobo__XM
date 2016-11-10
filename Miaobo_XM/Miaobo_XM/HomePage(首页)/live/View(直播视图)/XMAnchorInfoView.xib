@@ -3,106 +3,18 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XMAnchorInfoView">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
+            <rect key="frame" x="0.0" y="0.0" width="410" height="93"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9d-SC-Acg" userLabel="主播详情View">
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_head" translatesAutoresizingMaskIntoConstraints="NO" id="DY5-CK-sI6">
-                            <constraints>
-                                <constraint firstAttribute="width" constant="50" id="Sh8-4q-9tz"/>
-                                <constraint firstAttribute="width" secondItem="DY5-CK-sI6" secondAttribute="height" multiplier="1:1" id="v1a-vC-NyN"/>
-                            </constraints>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDE-oi-In7">
-                            <attributedString key="attributedText">
-                                <fragment content="主播名字">
-                                    <attributes>
-                                        <color key="NSColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <font key="NSFont" size="15" name="PingFangSC-Semibold"/>
-                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                    </attributes>
-                                </fragment>
-                            </attributedString>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666666人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zND-Vw-uF2">
-                            <constraints>
-                                <constraint firstAttribute="width" constant="100" id="jZn-5F-tZR"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="13"/>
-                            <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ni6-cL-K8E">
-                            <constraints>
-                                <constraint firstAttribute="height" constant="50" id="e7P-ae-kcB"/>
-                                <constraint firstAttribute="width" constant="50" id="i8U-ot-1Jm"/>
-                            </constraints>
-                            <state key="normal" title="关注"/>
-                        </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="房间号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaH-Ez-xwW">
-                            <constraints>
-                                <constraint firstAttribute="width" constant="100" id="efi-sM-WWC"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="13"/>
-                            <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="1" green="0.62628107030000002" blue="0.95609468659999997" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstItem="Ni6-cL-K8E" firstAttribute="leading" secondItem="RDE-oi-In7" secondAttribute="trailing" constant="10" id="0Rs-US-V60"/>
-                        <constraint firstAttribute="width" constant="330" id="0ZZ-8U-D7L"/>
-                        <constraint firstAttribute="bottom" secondItem="zND-Vw-uF2" secondAttribute="bottom" constant="5" id="4yH-xQ-tHB"/>
-                        <constraint firstItem="JaH-Ez-xwW" firstAttribute="leading" secondItem="zND-Vw-uF2" secondAttribute="trailing" constant="10" id="5LM-x9-lNb"/>
-                        <constraint firstAttribute="height" constant="60" id="5eE-Dd-uGc"/>
-                        <constraint firstItem="DY5-CK-sI6" firstAttribute="leading" secondItem="g9d-SC-Acg" secondAttribute="leading" constant="10" id="7Fa-70-Xxj"/>
-                        <constraint firstItem="Ni6-cL-K8E" firstAttribute="top" secondItem="g9d-SC-Acg" secondAttribute="top" constant="5" id="GCx-V0-gcg"/>
-                        <constraint firstItem="RDE-oi-In7" firstAttribute="leading" secondItem="DY5-CK-sI6" secondAttribute="trailing" constant="10" id="HeE-mF-XnA"/>
-                        <constraint firstItem="zND-Vw-uF2" firstAttribute="leading" secondItem="DY5-CK-sI6" secondAttribute="trailing" constant="10" id="Ho3-xH-EQn"/>
-                        <constraint firstAttribute="trailing" secondItem="Ni6-cL-K8E" secondAttribute="trailing" constant="10" id="IAD-O3-Hv0"/>
-                        <constraint firstItem="RDE-oi-In7" firstAttribute="top" secondItem="g9d-SC-Acg" secondAttribute="top" constant="5" id="YNL-H8-Lpf"/>
-                        <constraint firstItem="DY5-CK-sI6" firstAttribute="top" secondItem="g9d-SC-Acg" secondAttribute="top" constant="5" id="wkc-Tq-lwP"/>
-                        <constraint firstAttribute="bottom" secondItem="JaH-Ez-xwW" secondAttribute="bottom" constant="5" id="zDd-jA-JLy"/>
-                    </constraints>
-                </view>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="63G-T6-ARF"/>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKX-wE-cua">
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="220" id="2W9-PX-OXV"/>
-                        <constraint firstAttribute="height" constant="30" id="Xcc-j3-wdP"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                    <state key="normal" title="猫粮:22222222 娃娃:54126" image="cat_food_18x12"/>
-                </button>
-            </subviews>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="hKX-wE-cua" firstAttribute="top" secondItem="g9d-SC-Acg" secondAttribute="bottom" constant="20" id="4BX-jY-D06"/>
-                <constraint firstItem="hKX-wE-cua" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="7KN-PT-e4a"/>
-                <constraint firstAttribute="bottom" secondItem="63G-T6-ARF" secondAttribute="bottom" id="8OV-cl-riZ"/>
-                <constraint firstItem="63G-T6-ARF" firstAttribute="top" secondItem="hKX-wE-cua" secondAttribute="bottom" constant="10" id="CQS-eN-5lo"/>
-                <constraint firstItem="g9d-SC-Acg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="D46-st-d2u"/>
-                <constraint firstAttribute="trailing" secondItem="63G-T6-ARF" secondAttribute="trailing" constant="5" id="seg-rV-brg"/>
-                <constraint firstItem="g9d-SC-Acg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="uHK-ox-U8e"/>
-                <constraint firstItem="63G-T6-ARF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="wOI-LI-jhE"/>
-            </constraints>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="42" y="-236.5"/>
+            <point key="canvasLocation" x="42" y="-235.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="cat_food_18x12" width="18" height="12"/>
-        <image name="placeholder_head" width="100" height="100"/>
-    </resources>
 </document>

@@ -9,46 +9,12 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CatEarView">
-            <rect key="frame" x="0.0" y="0.0" width="98" height="98"/>
+            <rect key="frame" x="0.0" y="0.0" width="113" height="100"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgb-hC-0hx">
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="public_catEar_98x25" translatesAutoresizingMaskIntoConstraints="NO" id="dzv-9P-MBb">
-                            <constraints>
-                                <constraint firstAttribute="width" constant="98" id="GFm-pa-JYU"/>
-                                <constraint firstAttribute="height" constant="20" id="ozz-Zr-MlJ"/>
-                            </constraints>
-                        </imageView>
-                    </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstItem="dzv-9P-MBb" firstAttribute="leading" secondItem="xgb-hC-0hx" secondAttribute="leading" id="IbF-sz-SWA"/>
-                        <constraint firstAttribute="trailing" secondItem="dzv-9P-MBb" secondAttribute="trailing" id="PQ4-Cc-o2g"/>
-                        <constraint firstAttribute="width" constant="98" id="dJe-pG-IU1"/>
-                        <constraint firstItem="dzv-9P-MBb" firstAttribute="top" secondItem="xgb-hC-0hx" secondAttribute="top" id="rR3-9p-7oE"/>
-                        <constraint firstAttribute="height" constant="98" id="zYt-K0-Wqw"/>
-                    </constraints>
-                </view>
-            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="xgb-hC-0hx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="T2f-Nr-5E8"/>
-                <constraint firstAttribute="trailing" secondItem="xgb-hC-0hx" secondAttribute="trailing" id="ZKx-3M-bu2"/>
-                <constraint firstItem="xgb-hC-0hx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gF7-64-0nJ"/>
-                <constraint firstAttribute="bottom" secondItem="xgb-hC-0hx" secondAttribute="bottom" id="hIf-WY-LeF"/>
-            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-107" y="-232"/>
+            <point key="canvasLocation" x="-106.5" y="-232"/>
         </view>
-        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="q0d-LX-xOt">
-            <rect key="frame" x="0.0" y="0.0" width="101" height="39"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <point key="canvasLocation" x="-124.5" y="-93.5"/>
-        </imageView>
     </objects>
-    <resources>
-        <image name="public_catEar_98x25" width="98" height="25"/>
-    </resources>
 </document>
