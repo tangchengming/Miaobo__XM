@@ -9,12 +9,34 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CatEarView">
-            <rect key="frame" x="0.0" y="0.0" width="113" height="100"/>
+            <rect key="frame" x="0.0" y="0.0" width="98" height="98"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="public_catEar_98x25" translatesAutoresizingMaskIntoConstraints="NO" id="H9l-Ob-7KG">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="98" id="FZU-aw-kkV"/>
+                        <constraint firstAttribute="height" constant="25" id="rzZ-gW-9oO"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ubZ-De-cCP">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ubZ-De-cCP" secondAttribute="trailing" id="FcA-Fv-yvh"/>
+                <constraint firstItem="H9l-Ob-7KG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="INE-Lp-rI3"/>
+                <constraint firstAttribute="bottom" secondItem="ubZ-De-cCP" secondAttribute="bottom" id="O7A-IA-9kh"/>
+                <constraint firstItem="ubZ-De-cCP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xy2-Jv-gqC"/>
+                <constraint firstItem="ubZ-De-cCP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cL9-dE-ggb"/>
+                <constraint firstItem="H9l-Ob-7KG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="d1D-au-whq"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-106.5" y="-232"/>
+            <point key="canvasLocation" x="-107" y="-232"/>
         </view>
     </objects>
+    <resources>
+        <image name="public_catEar_98x25" width="98" height="25"/>
+    </resources>
 </document>
